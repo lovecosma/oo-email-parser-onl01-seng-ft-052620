@@ -13,7 +13,7 @@ end
 
 def parse
 if @email_string.include?(",")
-new_array = @email_string.split(",")
+new_array = @email_string.split(", ")
 end
 binding.pry
 end
