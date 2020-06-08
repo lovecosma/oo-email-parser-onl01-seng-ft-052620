@@ -14,12 +14,15 @@ def parse_array(array)
   new_array = []
   array.each do |string|
   if string.include?(" ")
-    split_array = string.split(" ")]
-
+    split_array = string.split(" ")
+    split_array.each do |value|
+      new_array << value
+    end
   else
     new_array << string
   end
-end
+  end
+  return new_array
 end
 
 
