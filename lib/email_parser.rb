@@ -32,8 +32,6 @@ new_array = @email_string.split(", ")
 elsif @email_string.include?(" ")
 new_array = @email_string.split(" ")
 parse_array(new_array)
-elsif
-
 end
 
 end
