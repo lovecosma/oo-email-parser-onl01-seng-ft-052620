@@ -11,7 +11,10 @@ def initialize(email_string)
 end
 
 def parse_array(array)
-  
+  new_array = [] 
+  array.each do |string|
+  new_array << string.split(" ") if 
+  end 
 end
 
 
