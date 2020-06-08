@@ -15,6 +15,9 @@ def parse_array(array)
   array.each do |string|
   if string.include?(" ")
     split_array = string.split(" ")
+    split_array.each do |value|
+      new_array << value
+    end
     new_array << string
   else
     new_array << string
