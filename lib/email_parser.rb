@@ -13,7 +13,7 @@ end
 def parse_array(array)
   new_array = []
   array.each do |string|
-  if string.include?(" ")
+  if string.include?(",")
     split_array = string.split(" ")
     split_array.each do |value|
       new_array << value
@@ -32,6 +32,7 @@ if @email_string.include?(", ")
 new_array = @email_string.split(", ")
 elsif @email_string.include?(" ")
 new_array = @email_string.split(" ")
+parse_array(new_array)
 elsif
 
 end
