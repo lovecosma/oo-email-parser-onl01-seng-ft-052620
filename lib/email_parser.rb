@@ -16,8 +16,9 @@ def parse_array(array)
   if string.include?(" ")
     string.split(" ")
   else
-    new_array << string 
+    new_array << string
   end
+end
 end
 
 
