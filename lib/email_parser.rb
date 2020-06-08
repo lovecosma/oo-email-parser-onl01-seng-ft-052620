@@ -32,8 +32,8 @@ if @email_string.include?(", ")
 new_array = @email_string.split(", ")
 elsif @email_string.include?(" ")
 new_array = @email_string.split(" ")
-elsif 
-  
+elsif
+
 end
 
 end
