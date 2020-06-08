@@ -10,6 +10,11 @@ def initialize(email_string)
 @email_string = email_string
 end
 
+def parse_array(array)
+  
+end 
+
+
 
 def parse
 if @email_string.include?(", ")
