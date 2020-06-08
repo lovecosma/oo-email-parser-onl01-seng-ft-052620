@@ -30,9 +30,10 @@ end
 def parse
 if @email_string.include?(", ")
 new_array = @email_string.split(", ")
-elsif @email_string.include?(" ") && !@email_string.include?(", ")
+elsif @email_string.include?(" ")
 new_array = @email_string.split(" ")
-end
+elsif 
+  
 end
 
 end
