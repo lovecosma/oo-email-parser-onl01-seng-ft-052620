@@ -13,7 +13,7 @@ end
 def parse_array(array)
   new_array = []
   array.each do |string|
-  if string.include?(",")
+  if string.include?(" ")
     string.chop
     new_array << string
   else
