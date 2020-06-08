@@ -16,7 +16,6 @@ def parse_array(array)
   if string.include?(",")
     string.chop
     new_array << string
-    end
   else
     new_array << string
   end
