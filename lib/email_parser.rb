@@ -37,5 +37,7 @@ new_array = @email_string.split(" ")
 final_array = parse_array(new_array)
 final_array
 end
+return final_array.uniq
 end
+
 end
