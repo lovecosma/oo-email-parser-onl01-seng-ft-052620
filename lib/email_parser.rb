@@ -12,7 +12,7 @@ end
 
 def parse_array(array)
   
-end 
+end
 
 
 
@@ -22,6 +22,6 @@ new_array = @email_string.split(", ")
 elsif @email_string.include?(" ") && !@email_string.include?(", ")
 new_array = @email_string.split(" ")
 end
-end 
+end
 
 end
