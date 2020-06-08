@@ -18,7 +18,6 @@ def parse_array(array)
     split_array.each do |value|
       new_array << value
     end
-    new_array << string
   else
     new_array << string
   end
